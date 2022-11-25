@@ -1,6 +1,4 @@
-# Setting up
-
-## Dependencies
+# Setting Up
 
 To start using Rhachis, add these dependencies to your `Cargo.toml` file:
 
@@ -14,7 +12,3 @@ If you wish to have access to more features of the engine that allow you to cust
 ```toml
 wgpu = "0.14"
 ```
-
-## Basic Code
-
-The framework expects a single `struct` to perform the core logic for everything. In practice, the core `struct` does not contain much and redirects game logic to other parts of your game.
