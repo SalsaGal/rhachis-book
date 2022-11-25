@@ -1,0 +1,6 @@
+[book]
+authors = ["SalsaGal"]
+language = "en"
+multilingual = false
+src = "src"
+title = "The Rhachis Book"
