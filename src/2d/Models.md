@@ -34,10 +34,10 @@ If we run this, we'll see your first rendered model in Rhachis!
 Let's break down that line we just added:
 
 ```rust
-renderer.models.push(				// 1.
-    Model::quad(					// 2.
-        data,						// 3.
-        vec![Transform::default()]	// 4.
+renderer.models.push(               // 1.
+    Model::quad(                    // 2.
+        data,                       // 3.
+        vec![Transform::default()]  // 4.
     )
 );
 ```
